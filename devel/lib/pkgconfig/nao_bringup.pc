@@ -1,0 +1,8 @@
+prefix=/home/ssj/ros_ws/devel
+
+Name: nao_bringup
+Description: Description of nao_bringup
+Version: 0.5.15
+Cflags: 
+Libs: -L/home/ssj/ros_ws/devel/lib 
+Requires: 

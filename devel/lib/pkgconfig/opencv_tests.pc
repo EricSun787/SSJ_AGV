@@ -1,0 +1,8 @@
+prefix=/home/ssj/ros_ws/devel
+
+Name: opencv_tests
+Description: Description of opencv_tests
+Version: 1.11.3
+Cflags: 
+Libs: -L/home/ssj/ros_ws/devel/lib 
+Requires: 

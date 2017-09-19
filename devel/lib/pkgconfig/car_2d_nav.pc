@@ -1,0 +1,8 @@
+prefix=/home/ssj/ros_ws/devel
+
+Name: car_2d_nav
+Description: Description of car_2d_nav
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/ssj/ros_ws/devel/lib 
+Requires: 

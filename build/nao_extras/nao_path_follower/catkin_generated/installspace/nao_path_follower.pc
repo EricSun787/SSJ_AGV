@@ -1,0 +1,8 @@
+prefix=/home/ssj/ros_ws/install
+
+Name: nao_path_follower
+Description: Description of nao_path_follower
+Version: 0.3.1
+Cflags: 
+Libs: -L/home/ssj/ros_ws/install/lib 
+Requires: naoqi_bridge_msgs roscpp tf std_msgs std_srvs geometry_msgs nav_msgs move_base_msgs actionlib angles

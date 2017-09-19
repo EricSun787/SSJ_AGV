@@ -1,0 +1,8 @@
+prefix=/home/ssj/ros_ws/devel
+
+Name: tts_voice
+Description: Description of tts_voice
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/ssj/ros_ws/devel/lib 
+Requires: 

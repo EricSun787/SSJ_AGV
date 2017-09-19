@@ -1,0 +1,8 @@
+prefix=/home/ssj/ros_ws/install
+
+Name: mode_console
+Description: Description of mode_console
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/ssj/ros_ws/install/lib 
+Requires: 

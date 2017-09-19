@@ -1,0 +1,8 @@
+prefix=/home/ssj/ros_ws/devel
+
+Name: pal_behaviour_msgs
+Description: Description of pal_behaviour_msgs
+Version: 0.11.3
+Cflags: -I/home/ssj/ros_ws/devel/include
+Libs: -L/home/ssj/ros_ws/devel/lib 
+Requires: message_runtime std_msgs actionlib_msgs

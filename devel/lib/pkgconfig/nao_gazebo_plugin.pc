@@ -1,0 +1,8 @@
+prefix=/home/ssj/ros_ws/devel
+
+Name: nao_gazebo_plugin
+Description: Description of nao_gazebo_plugin
+Version: 0.0.6
+Cflags: 
+Libs: -L/home/ssj/ros_ws/devel/lib 
+Requires: 

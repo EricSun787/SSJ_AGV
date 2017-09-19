@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package>
+  <name>tf_tree</name>
+  <version>1.0.0</version>
+  <description>The tf_tree package</description>
+  <maintainer email="todo@dji.com">dji</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>tf</build_depend>
+  <run_depend>geometry_msgs</run_depend>
+  <run_depend>roscpp</run_depend>
+  <run_depend>tf</run_depend>
+</package>

@@ -1,0 +1,8 @@
+prefix=/home/ssj/ros_ws/install
+
+Name: navfn
+Description: Description of navfn
+Version: 1.12.13
+Cflags: -I/home/ssj/ros_ws/install/include
+Libs: -L/home/ssj/ros_ws/install/lib -lnavfn
+Requires: geometry_msgs message_runtime nav_core nav_msgs pluginlib roscpp visualization_msgs

@@ -1,0 +1,8 @@
+prefix=/home/ssj/ros_ws/devel
+
+Name: pal_gazebo_plugins
+Description: Description of pal_gazebo_plugins
+Version: 1.1.3
+Cflags: -I/home/ssj/ros_ws/src/pal_gazebo_plugins/include -I/usr/include -I/usr/include/gazebo-2.2 -I/usr/include/sdformat-1.4
+Libs: -L/home/ssj/ros_ws/devel/lib -lgazebo_ros_forcetorque -lgazebo_pal_hand -lgazebo_wifi_ap -lgazebo_underactuated_finger -l:/usr/lib/x86_64-linux-gnu/libgazebo.so -l:/usr/lib/x86_64-linux-gnu/libgazebo_ccd.so -l:/usr/lib/x86_64-linux-gnu/libgazebo_common.so -l:/usr/lib/x86_64-linux-gnu/libgazebo_gimpact.so -l:/usr/lib/x86_64-linux-gnu/libgazebo_gui.so -l:/usr/lib/x86_64-linux-gnu/libgazebo_gui_building.so -l:/usr/lib/x86_64-linux-gnu/libgazebo_gui_viewers.so -l:/usr/lib/x86_64-linux-gnu/libgazebo_math.so -l:/usr/lib/x86_64-linux-gnu/libgazebo_msgs.so -l:/usr/lib/x86_64-linux-gnu/libgazebo_ode.so -l:/usr/lib/x86_64-linux-gnu/libgazebo_opcode.so -l:/usr/lib/x86_64-linux-gnu/libgazebo_opende_ou.so -l:/usr/lib/x86_64-linux-gnu/libgazebo_physics.so -l:/usr/lib/x86_64-linux-gnu/libgazebo_physics_ode.so -l:/usr/lib/x86_64-linux-gnu/libgazebo_rendering.so -l:/usr/lib/x86_64-linux-gnu/libgazebo_selection_buffer.so -l:/usr/lib/x86_64-linux-gnu/libgazebo_sensors.so -l:/usr/lib/x86_64-linux-gnu/libgazebo_skyx.so -l:/usr/lib/x86_64-linux-gnu/libgazebo_transport.so -l:/usr/lib/x86_64-linux-gnu/libgazebo_util.so -l:/usr/lib/x86_64-linux-gnu/libgazebo_player.so -l:/usr/lib/x86_64-linux-gnu/libgazebo_rendering_deferred.so -l:/usr/lib/x86_64-linux-gnu/libprotobuf.so -l:/usr/lib/x86_64-linux-gnu/libsdformat.so -l:/usr/lib/x86_64-linux-gnu/libboost_thread.so -l:/usr/lib/x86_64-linux-gnu/libpthread.so
+Requires: std_msgs std_srvs tf pal_multirobot_msgs roscpp control_toolbox

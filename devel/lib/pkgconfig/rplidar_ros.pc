@@ -1,0 +1,8 @@
+prefix=/home/ssj/ros_ws/devel
+
+Name: rplidar_ros
+Description: Description of rplidar_ros
+Version: 1.5.7
+Cflags: 
+Libs: -L/home/ssj/ros_ws/devel/lib 
+Requires: 

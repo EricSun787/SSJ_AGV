@@ -1,0 +1,8 @@
+prefix=/home/ssj/ros_ws/devel
+
+Name: naoqi_tools
+Description: Description of naoqi_tools
+Version: 0.5.5
+Cflags: 
+Libs: -L/home/ssj/ros_ws/devel/lib 
+Requires: 

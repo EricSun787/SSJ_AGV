@@ -1,0 +1,8 @@
+prefix=/home/ssj/ros_ws/install
+
+Name: moveit_msgs
+Description: Description of moveit_msgs
+Version: 0.7.5
+Cflags: -I/home/ssj/ros_ws/install/include
+Libs: -L/home/ssj/ros_ws/install/lib 
+Requires: std_msgs actionlib_msgs sensor_msgs geometry_msgs trajectory_msgs shape_msgs object_recognition_msgs octomap_msgs

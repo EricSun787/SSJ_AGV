@@ -1,0 +1,8 @@
+prefix=/home/ssj/ros_ws/devel
+
+Name: realtime_tools
+Description: Description of realtime_tools
+Version: 1.9.1
+Cflags: -I/home/ssj/ros_ws/src/realtime_tools/include
+Libs: -L/home/ssj/ros_ws/devel/lib -lrealtime_tools
+Requires: roscpp rospy

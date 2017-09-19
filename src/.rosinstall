@@ -1,0 +1,2 @@
+- git: {local-name: navigation, uri: "https://github.com/ros-planning/navigation.git", version: indigo-devel}
+- setup-file: {local-name: ../devel/setup.zsh }

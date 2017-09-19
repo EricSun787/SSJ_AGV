@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ssj/ros_ws/src/tts_voice/include/msp_cmn.h
+msp_types.h
+/home/ssj/ros_ws/src/tts_voice/include/msp_types.h
+
+/home/ssj/ros_ws/src/tts_voice/include/msp_errors.h
+
+/home/ssj/ros_ws/src/tts_voice/include/msp_types.h
+
+/home/ssj/ros_ws/src/tts_voice/include/qisr.h
+msp_types.h
+/home/ssj/ros_ws/src/tts_voice/include/msp_types.h
+
+/home/ssj/ros_ws/src/tts_voice/src/asr_sample.c
+stdio.h
+-
+string.h
+-
+stdlib.h
+-
+unistd.h
+-
+qisr.h
+/home/ssj/ros_ws/src/tts_voice/src/qisr.h
+msp_cmn.h
+/home/ssj/ros_ws/src/tts_voice/src/msp_cmn.h
+msp_errors.h
+/home/ssj/ros_ws/src/tts_voice/src/msp_errors.h
+

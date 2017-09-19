@@ -1,0 +1,8 @@
+prefix=/home/ssj/ros_ws/devel
+
+Name: amcl
+Description: Description of amcl
+Version: 1.12.13
+Cflags: -I/home/ssj/ros_ws/devel/include -I/home/ssj/ros_ws/src/navigation/amcl/include
+Libs: -L/home/ssj/ros_ws/devel/lib -lamcl_sensors -lamcl_map -lamcl_pf
+Requires: nav_msgs std_srvs

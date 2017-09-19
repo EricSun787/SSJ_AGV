@@ -1,0 +1,8 @@
+prefix=/home/ssj/ros_ws/install
+
+Name: nav_core
+Description: Description of nav_core
+Version: 1.12.13
+Cflags: -I/home/ssj/ros_ws/install/include
+Libs: -L/home/ssj/ros_ws/install/lib 
+Requires: std_msgs geometry_msgs tf costmap_2d

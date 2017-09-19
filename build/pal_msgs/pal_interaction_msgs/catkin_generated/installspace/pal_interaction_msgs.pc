@@ -1,0 +1,8 @@
+prefix=/home/ssj/ros_ws/install
+
+Name: pal_interaction_msgs
+Description: Description of pal_interaction_msgs
+Version: 0.11.3
+Cflags: -I/home/ssj/ros_ws/install/include
+Libs: -L/home/ssj/ros_ws/install/lib 
+Requires: message_runtime

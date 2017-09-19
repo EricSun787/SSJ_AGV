@@ -1,0 +1,8 @@
+prefix=/home/ssj/ros_ws/install
+
+Name: naoqi_apps
+Description: Description of naoqi_apps
+Version: 0.5.5
+Cflags: 
+Libs: -L/home/ssj/ros_ws/install/lib 
+Requires: 

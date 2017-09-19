@@ -1,0 +1,25 @@
+<launch>
+  <master auto="start"/>
+  
+  <!-- Run the rplidar -->
+  <node name="rplidarNode"          pkg="rplidar_ros"  type="rplidarNode" output="screen">
+  <param name="serial_port"         type="string" value="/dev/ttyUSB1"/>  
+  <param name="serial_baudrate"     type="int"    value="115200"/>
+  <param name="frame_id"            type="string" value="laser"/>
+  <param name="inverted"            type="bool"   value="false"/>
+  <param name="angle_compensate"    type="bool"   value="true"/>
+  </node>
+
+  <!-- Run the odometry -->
+  <!-- node pkg="odometry" type="vel2odom" name="odometry_publisher" output="screen"/ -->
+  
+  <!-- Run the tf -->
+  <node pkg="tf_tree"  type="tf_broadcaster" name="robot_tf_broadcaster" output="screen"/>
+  
+  <!-- Run the slam -->  
+  <include file="$(find car_2d_nav)/move_base_config/slam_gmapping.xml"/>  
+ 
+  <!-- Run the rviz -->
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find car_2d_nav)/single_robot.rviz" />
+
+</launch>

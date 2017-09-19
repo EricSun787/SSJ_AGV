@@ -1,0 +1,2 @@
+set(logical_core_MESSAGE_FILES "msg/tpos.msg")
+set(logical_core_SERVICE_FILES "srv/SetGoal.srv")

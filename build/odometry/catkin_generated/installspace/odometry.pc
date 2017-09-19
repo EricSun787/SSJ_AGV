@@ -1,0 +1,8 @@
+prefix=/home/ssj/ros_ws/install
+
+Name: odometry
+Description: Description of odometry
+Version: 1.0.0
+Cflags: -I/home/ssj/ros_ws/install/include
+Libs: -L/home/ssj/ros_ws/install/lib 
+Requires: message_runtime
